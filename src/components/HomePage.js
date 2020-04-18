@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 function HomePage() {
   return (
     <div className="jumbotron">
-      <h1>Devoteam Administration</h1>
+      <h1>Nadin Administration</h1>
       <p>React, Flux. and React Router for ultra-responsive web apps</p>
-      <Link to="/about">About</Link>
+      <Link to="about" className="btn btn-primary">About</Link>
     </div>
   );
 }
